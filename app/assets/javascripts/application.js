@@ -14,3 +14,20 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+// $(document).ready(function(){
+//   $("#grid-init form").on('submit', function(event){
+//     event.preventDefault();
+//     $.ajax({
+//       type: "POST",
+//       url: "#",
+//       data: {grid_size: $("#grid_size").val()},
+//       success: function(data) {
+//         $("#from-ajax").append(data);
+//       },
+//       error: function(jqXHR) {
+//         console.error(jqXHR.responseText);
+//       }
+//     });
+//     $("#grid-init").addClass("hidden");
+//   });
+// });
